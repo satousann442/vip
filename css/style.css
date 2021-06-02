@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+.sp{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+button{
+  background: none;
+  border:none;
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.7;
+  transition:0.5s ;
+}
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (max-width:768px){
+  .sp{
+  display: block;
+  }
+
+  .pc{
+    display: none;
+  }
+}
+
+/* header */
+
+header{
+  /* background: url(../img/header_bg.png) no-repeat top center;
+  background-size: cover; */
+  /* height:auto; */
+  position:relative;
+}
+
+video{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+header .container{
+  text-align: center;
+  padding-bottom:2%;
+}
+
+h1{
+  padding-top: 2%;
+}
+
+header h2{
+  padding-top: 1%;
+}
+
+header button{
+  margin:0 auto;
+  padding-top: 2%;
+}
+
+/* solution */
+
+.solution{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* about */
+
+.about{
+  background: url(../img/about_bg.png) no-repeat top center;
+  background-size: cover;
+  height: auto;
+}
+
+.about .container{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.about button{
+  padding-top: 3%;
+}
+
+.about h3{
+  padding-top: 3%;
+}
+
+/* reazon */
+
+.reazon{
+  background-color: #06163D;
+}
+
+.reazon .container{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* graph */
+
+.graph{
+  background-color: #E8F1FF;
+  text-align: center;
+}
+
+.graph .container{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* point */
+
+.point{
+  background-color: #F8F6F1;
+  text-align: center;
+}
+
+.point .container{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* logo */
+
+.logo{
+  text-align: center;
+}
+
+.logo .container{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* detail */
+
+.detail{
+  background: url(../img/datail_bg.png) no-repeat top center;
+  background-size: cover;
+  height: auto;
+  text-align: center;
+}
+
+.detail .container{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.detail h3{
+  padding-top: 3%;
+}
+
+/* perfomance */
+
+.perfomance{
+  background:url(../img/perfomance_bg.png) no-repeat top center;
+  background-size: cover;
+  height:auto;
+  text-align: center;
+}
+
+.perfomance .container{
+  padding-bottom: 3%;
+}
+
+.perfomance h2{
+  padding-top: 3%;
+}
+
+.perfomance__content{
+  background-color: #ffffff;
+}
+
+.perfomance button{
+  margin: 0 auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* footer */
+
+footer{
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-top: 3%;
+}
+
+li{
+  font-weight: normal;
+  padding:1%
+}
+
+footer p{
+  text-align: center;
+  font-weight: normal;
+  padding-top: 1%;
+}
+
+.page-top a:hover{
+  opacity: 0.7;
+  transition:0.5s ;
+}
+
+.page-top{
+  position:fixed;
+  right:3%;
+  bottom:3%;
+}
+
+.arrow{
+  color:#001775;
+}
+
