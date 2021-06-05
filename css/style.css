@@ -102,9 +102,13 @@ header button{
   padding-top: 3%;
 }
 
+.about h4{
+  padding-top: 3%;
+}
+
 /* reazon */
 
-.reazon{
+.reazon {
   background-color: #06163D;
 }
 
@@ -182,6 +186,52 @@ header button{
 
 .perfomance h2{
   padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.perfomance__mv--list1{
+  position:relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.youtube1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 3%;
+}
+
+.perfomance__mv--list2 {
+  position:relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.youtube2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 3%;
+}
+
+.perfomance__mv--list3 {
+  position:relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.youtube3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 3%;
 }
 
 .perfomance__content{
